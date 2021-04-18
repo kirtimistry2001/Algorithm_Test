@@ -17,3 +17,173 @@ Pick one of the choices
 
 Ans: 10, 8, 7, 3, 2, 1, 5
 --------------------------------------
+REST and RPC are two of the common ways to communicate over a network that can be used 
+in distributed systems. 
+Which of the following are true?
+
+Pick the correct choices
+1) In general, REST is more suitable for public access APIs than RPCs.
+2) RPCs try to mimic function calls over a network architecture.
+3) Custom RPC protocols, especially when using binary encoding format can achieve a better performance than REST in general.
+4) RPCs are generally easier to maintain than JSONs, but JSONs are definitely better for debugging and prototyping purposes.
+
+Ans: 1,2,3
+
+
+------------------ distributed system --------------------
+Replication and partitioning are two common ways to distribute data across multiple machines/nodes. Which of the following are true?
+Pick the correct choices
+
+1) Both replication and partitioning can be crucial in improving the performance of delivering data on request.
+2) Replication and partitioning cannot be used together.
+3) In leader-based replications, one of the nodes stores all the data. Only when needed, the other nodes ask the leader to deliver data that they do not have.
+4) Using hash-based partitioning usually has a disadvantage in the performance of range-based queries
+
+Ans: 1,4
+--------------------- 
+Which of the following rules should be followed to design a good URI?
+Pick the correct choices
+
+1) URIs should never be changed
+2) URIs must be constructed by the client
+3) URIs should be short in length
+4) URIs should be case-sensitive
+5) HTTP verbs should be used instead of operation names in URIs
+6) Use spaces when designing a URI
+7) Redirection must be used if a change in URI is required
+
+Ans: 1,3,5,7
+
+-------------------
+
+Which of the following is (are) valid server response formats?
+Pick the correct choices
+
+1) XML
+2) JSON
+3) CSV
+4) None of these
+
+ans: 1.2.3
+
+------------
+Select the Architectural Constraints of REST API: 
+Pick the correct choices
+
+1) Uniform interface
+2) Stateless
+3) Cacheable
+4) Layered system
+
+ans: 1,2,3,4
+
+--------------------------------------
+Select all statements below that are major constraints according to the REST specifications.
+Pick the correct choices
+
+1)There should be separate concerns for each server and client which will help to maintain the modularity within the application. This will also reduce the complexity and increase the scalability.
+21) The client-server communication should be stateless, which means no previous information is used and the complete execution is done in isolation. In cases of failure, it also helps the client to recover.
+3) In client-server communication, the HTTP response should be cacheable so that when required, a cached copy can be used which in turn enhances the scalability and performance of the server.
+4) Client-server communication should be done on a layered system. Thus the client should only have knowledge about the intermediate level with which communication is being done.
+
+
+ans: 1,2,3,4
+
+--------------------- jenkins
+
+The screenshot below shows the Post Build Actions section of New Item.   You want to send an email notification to a list of recipients when there is an unstable build.
+
+ 
+
+Which is the correct format to enter the list of email addresses in the Recipients box?
+Pick one of the choices
+
+1) Comma separated list of email addresses
+2) Semicolon separated list of email addresses
+3) Space separated list of email addresses
+4) Slash separated list of email addresses
+
+Ans: 3
+-------------------------CSS -----------
+If you want to wrap a block of text around an image, which CSS property would you use?
+Pick one of the choices
+
+1)wrap
+2)align
+3)push
+4) float
+
+ans: 4
+---------------------- Set
+
+We perform the following sequence of actions:
+
+Insert the following elements into a set: 1, 2, 9, 1, 2, 3, 1, 4, 1, 5, 7.
+Convert the set into a list and sort it in ascending order.
+Which option denotes the sorted list?
+Pick one of the choices
+
+1) {1, 2, 3, 4, 5, 7, 9}
+2) {9, 7, 5, 4, 3, 2, 1}
+3) {1, 1, 1, 1, 2, 2, 3, 4, 5, 7, 9}
+4) None of the above.
+
+ans :1
+
+------------------------ css 
+div {
+    border: 2px solid;
+    resize: horizontal;
+    overflow: auto;
+}
+
+What is the job of the resize attribute?
+Pick one of the choices
+
+1) To make the div element resizable by the user.
+To make the div element resizable by the browser.
+To increase the horizontal padding.
+To make the div element resizable by javascript.
+
+ans: 1
+
+-------------------- iframe 
+What allows the iframe to pull content from elsewhere in the same domain? 
+Pick one of the choices
+
+1) same-origin
+2) crossorigin
+3) allow-same-origin
+4) allow-origin
+
+ans: 3
+
+------------------- css3 
+Which is/are the correct way(s) to select child elements?
+Pick the correct choices
+
+1) .table_ul > li { border: 1px solid red }
+2) div span { background:red }
+3)p:first-child {background: red;}
+4) div.one span { color: blue; }
+
+abs:1,3
+
+--------------------- Request content tyoe
+fetch(url, {
+    method: 'post',
+    headers: {
+      "Content-type": -----------
+    },
+    body: 'foo=bar&lorem=ipsum'
+  })
+
+Consider the code snippet above. Which of the following values for the Content-Type header is/are correct?
+Pick the correct choices
+
+1) application/x-www-form-urlencoded; charset=UTF-8
+2) text/html; charset=utf-8
+3) application/json; charset=UTF-8
+4) Content-Type: multipart/form-data; boundary=something
+
+ans: 1
